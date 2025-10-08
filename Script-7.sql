@@ -1,5 +1,5 @@
 -- explain analyze
-# Create a CT) to calculate the average grade per course 
+# Create a CTE to calculate the average grade per course 
 # Only include courses where the lowest grade is at least 45
 with AvgGradeByCourses as(
 	SELECT
