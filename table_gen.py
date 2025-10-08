@@ -86,7 +86,6 @@ conn.commit()
 # Random data generators
 majors = ["Computer Science", "Economics", "Mathematics", "Physics", "Literature", "Data Science"]
 departments = ["Computer Science", "Economics", "Mathematics", "Physics", "Literature"]
-grades = [5, "A-", "B+", "B", "B-", "C+", "C"]
 season = ["Fall 2023", "Spring 2024", "Fall 2024"]
 course_names = ["Intro to Programming", "Data Structures", "Algorithms", "Calculus I", "Calculus II", 
                 "Mechanics", "Modern Literature", "Economics 101", "Physics Lab", "AI Basics"]
