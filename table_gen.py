@@ -93,7 +93,7 @@ course_names = ["Intro to Programming", "Data Structures", "Algorithms", "Calcul
 
 # Students
 students_data = []
-for i in range(1, 150):  # 10 students
+for i in range(1, 150):  
     first_name = fake.first_name()
     last_name = fake.last_name()
     email = f"{first_name.lower()}.{last_name.lower()}@uni.edu"
@@ -110,7 +110,7 @@ for i, name in enumerate(course_names, start=101):
 
 # Professors
 professors_data = []
-for i in range(1, 10):  # 10 professors
+for i in range(1, 10):  
     first_name = fake.first_name()
     last_name = fake.last_name()
     department = random.choice(departments)
@@ -121,7 +121,7 @@ for i in range(1, 10):  # 10 professors
 enrollments_data = []
 enrollment_id = 1
 for student_id in range(1, 50):
-    course_ids = random.sample([c[0] for c in courses_data], 3)  # 3 random courses per student
+    course_ids = random.sample([c[0] for c in courses_data], 3)  
     for cid in course_ids:
         semester = random.choice(season)
         grade = random.randint(40, 100)
